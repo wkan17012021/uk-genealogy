@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-   base: "/", // Set this to your repo name
+   base: "/uk-genealogy/",
   build: {
     outDir: "dist",
     emptyOutDir: true,
