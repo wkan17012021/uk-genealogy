@@ -1,0 +1,36 @@
+/* 3rd party packages */
+@use "normalize.css";
+
+/* globals */
+
+$uk-gene-cyan: #2f837d;
+$uk-gene-grey-green: #9dc5c3;
+$uk-gene-black: #000;
+$uk-gene-white: #FFF;
+$uk-gene-grey: #f4f4f4;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button {
+    background-color: $uk-gene-cyan;
+    color: $uk-gene-white;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    border: none;
+    &:hover {
+        outline: 1px solid $uk-gene-cyan;
+        outline-offset: 2px;
+        
+    }
+    &:disabled {
+        background-color: $uk-gene-grey;
+        cursor: not-allowed;
+        color: $uk-gene-black;
+        outline: none;
+    }
+}
+
